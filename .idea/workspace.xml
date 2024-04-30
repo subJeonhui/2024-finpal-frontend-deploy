@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7608de3e-5d00-4d6d-8e1f-db0e69699eb5" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/left-message-box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/right-message-box.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/finpal-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/auth/signIn/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/auth/signIn/signIn.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/FpButton.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/FpButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/FpInput.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/FpInput.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/FpLink.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/FpLink.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/NavigationBar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/NavigationBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Pretendard/Pretendard-Black.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Pretendard/Pretendard-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Pretendard/Pretendard-ExtraBold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Pretendard/Pretendard-ExtraLight.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Pretendard/Pretendard-Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Pretendard/Pretendard-Medium.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Pretendard/Pretendard-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Pretendard/Pretendard-SemiBold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/fonts/Pretendard/Pretendard-Thin.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/main/main.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/main/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/utils/animation.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="7608de3e-5d00-4d6d-8e1f-db0e69699eb5" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +87,7 @@
       <workItem from="1714233810920" duration="1000" />
       <workItem from="1714376817417" duration="613000" />
       <workItem from="1714470349588" duration="9457000" />
-      <workItem from="1714487844044" duration="11490000" />
+      <workItem from="1714487844044" duration="12321000" />
     </task>
     <servers />
   </component>
