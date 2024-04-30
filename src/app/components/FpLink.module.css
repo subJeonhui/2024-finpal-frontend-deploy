@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+}
+
+.span {
+    font-size: 0.8rem;
+    color: var(--description-color)
+}
+
+.a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}

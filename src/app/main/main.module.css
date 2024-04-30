@@ -1,0 +1,52 @@
+.titleContainer {
+    @media screen and (max-width: 768px) {
+        transform: translate(-50%, -50%);
+        top: 20%;
+        left: 50%;
+        text-align: center;
+    }
+    display: inline-block;
+    position: relative;
+    top: 30%;
+    left: 10%;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.subtitle {
+  color: var(--description-color);
+    font-size: 1.6rem;
+    margin:0;
+}
+
+.title {
+    font-size: 3.6rem;
+    margin:0;
+}
+
+.animationBoxContainer {
+    @media screen and (max-width: 768px) {
+        transform: translate(-50%, 0);
+        left: 50%;
+        text-align: center;
+        width: 80%;
+        top: auto;
+        bottom: 4%;
+    }
+    position: absolute;
+    transform: translate(0,-50%);
+    top: 50%;
+    right: 10%;
+    width: 40%;
+}
+
+.animationBox {
+    display: flex;
+    margin: 1rem 0;
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+}
+
+.message {
+    width: 68%;
+}
