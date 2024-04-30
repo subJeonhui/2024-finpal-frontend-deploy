@@ -22,7 +22,7 @@ jobs:
         with:
           source-directory: 'output'
           destination-github-username: SubJeonhui
-          destination-repository-name: 2024-finpal-frontend-deploy
+          destination-repository-name: https://github.com/subJeonhui/2024-finpal-frontend-deploy
           user-email: ${{ secrets.DEPLOY_ACCOUNT_EMAIL }}
           commit-message: ${{ github.event.commits[0].message }}
           target-branch: main
