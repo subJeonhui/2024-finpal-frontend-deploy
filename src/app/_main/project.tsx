@@ -1,13 +1,13 @@
 'use client'
 
-import styles from "./main.module.css"
+import styles from "./project.module.css"
 import {useEffect, useRef} from "react";
-import animation from "@/app/utils/animation";
+import animation from "@/utils/animation";
 import Image from "next/image";
-import leftMessageBox from "@@/public/assets/left-message-box.png";
-import rightMessageBox from "@@/public/assets/right-message-box.png";
+import leftMessageBox from "@@/public/assets/left-message-box.svg";
+import rightMessageBox from "@@/public/assets/right-message-box.svg";
 
-export default function Main() {
+export default function Project() {
     const targets = [useRef<HTMLImageElement>(null),
         useRef<HTMLDivElement>(null),
         useRef<HTMLDivElement>(null),
@@ -23,7 +23,7 @@ export default function Main() {
     }, targets);
 
     return (
-        <div className="page">
+        <div className="page overflow-clip">
             <div className={styles.titleContainer}>
                 <h1 className={styles.subtitle}>기업 정보를 더 쉽게 파악하기 위한</h1>
                 <h3 className={styles.title}>대화형 AI</h3>

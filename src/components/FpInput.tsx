@@ -1,7 +1,7 @@
 'use client'
 
 import {Dispatch, SetStateAction, useState} from "react";
-import styles from "./FpInput.module.css"
+import styles from "./styles/FpInput.module.css"
 
 type FpInputProps = {
     placeholder: string

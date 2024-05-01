@@ -4,11 +4,12 @@ import {useState} from "react";
 import FpInput from "@/components/FpInput";
 import FpButton from "@/components/FpButton";
 import FpLink from "@/components/styles/FpLink";
-import styles from "./signIn.module.css"
+import styles from "./register.module.css"
 
-export default function SignIn() {
+export default function Register() {
     let [id, setId] = useState('')
     let [password, setPassword] = useState('')
+    let [passwordCheck, setPasswordCheck] = useState('')
     let signInButtonAction = () => {
     }
 
@@ -22,12 +23,12 @@ export default function SignIn() {
                 <div className={styles.inputContainer}>
                     <FpInput placeholder="Email" state={[id, setId]} type={"text"}/>
                     <FpInput placeholder="Password" state={[password, setPassword]} type={"password"}/>
+                    <FpInput placeholder="Password" state={[passwordCheck, setPasswordCheck]} type={"password"}/>
                     <FpButton text={"Sign In"} onClick={signInButtonAction}/>
                 </div>
                 <div className={styles.linkContainer}>
-                    <FpLink description={"비밀번호를 잃어버리셨나요?"} linkDescription={"비밀번호 변경"}
-                            href={"/auth/changePassword"}/>
-                    <FpLink description={"계정이 없으신가요?"} linkDescription={"회원가입"} href={"/auth/register"}/>
+                    <FpLink description={"이미 계정이 있으신가요?"} linkDescription={"로그인"}
+                            href={"/auth/signIn"}/>
                 </div>
             </div>
         </div>

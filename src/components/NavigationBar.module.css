@@ -8,12 +8,23 @@
     height: 4rem;
 }
 
-.logo {
+.logoContainer {
     position: relative;
+    display: flex;
+    flex-direction: row;
     margin: 0 2rem;
     top: 50%;
     transform: translate(0, -50%);
     height: 60%;
+    width: fit-content;
+}
+
+.icon {
+    width: auto;
+    margin: 2.4%;
+}
+
+.logo {
     width: auto;
 }
 

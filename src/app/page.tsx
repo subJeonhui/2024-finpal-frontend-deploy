@@ -1,6 +1,6 @@
 import Image from "next/image";
-import Main from "@/app/main/main";
+import Project from "@/app/_main/project";
 
 export default function Home() {
-  return (<Main/>);
+  return (<Project/>);
 }

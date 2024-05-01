@@ -1,10 +1,12 @@
 'use client'
 
 import styles from './NavigationBar.module.css';
-import logo from "@@/public/finpal-logo.svg";
-import Image from "next/image";
 import {useRouter} from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
+
+import icon from "@@/public/assets/finpal-icon.svg";
+import logo from "@@/public/assets/finpal-logo.svg";
 
 export default function NavigationBar() {
 
@@ -15,7 +17,12 @@ export default function NavigationBar() {
 
     return (
         <nav className={styles.nav}>
-            <Link href="/"><Image priority={true} className={styles.logo} src={logo} alt=""/></Link>
+            <Link href="/">
+                <div className={styles.logoContainer}>
+                <Image priority={true} className={styles.icon} src={icon} alt=""/>
+                <Image priority={true} className={styles.logo} src={logo} alt=""/>
+                </div>
+            </Link>
             <div className={styles.container}>
                 <ul className={styles.ul}>
                     <li className={styles.li}>프로젝트 소개</li>

@@ -1,4 +1,4 @@
-import styles from "./FpButton.module.css"
+import styles from "./styles/FpButton.module.css"
 
 type FpButtonProps = {
     text: string
